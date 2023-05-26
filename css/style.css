@@ -3,10 +3,38 @@
 
 #main-content > aside{
         width: 250px;
+        z-index: 1;
 }
 
+.aside-logo > img{
+        padding: 20px;
+        width: 80%;
+}
 
+.aside-nav > p{
+        color: white;
+        opacity: 50%;
+        text-align: left;
+        padding: 0 0 15px 20px;
+}
 
+.aside-playlist > h3{
+        color: white;
+        padding: 0 0 15px 20px;
+        font-size: 20px;
+}
+
+.aside-playlist > p{
+        color: white;
+        opacity: 50%;
+        text-align: left;
+        padding: 0 0 25px 20px;
+}
+
+#created-button{
+        font-size: 50px;
+        margin: 0 5px 0 5px;
+}
 
 
 
@@ -141,7 +169,7 @@ footer{
         height: 100px;
         display: flex;
         justify-content: space-between;
-        z-index: 1;
+        z-index: 2;
         background-color: #272727;
         align-items: center;
 }
