@@ -1,0 +1,16 @@
+/* DEBUG */
+
+.debug-main{
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.debug-aside{
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+}
+
+.debug-footer{
+    background-color: rgb(68, 0, 255);
+    border: 2px solid black;
+}
