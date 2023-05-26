@@ -15,6 +15,7 @@
 #main-content{
         height: calc(100vh - 100px);
         display: flex;
+        background-color: #141921;
 }
 
 #main-content > main,
@@ -43,6 +44,14 @@
         padding: 20px;
 }
 
+#main-content > main > header > button{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px;
+}
+
 
 
 /* NAV */
@@ -58,9 +67,37 @@
         padding: 5px 10px;
 }
 
+li > a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+}
+
+.size-line{
+        color: rgb(10, 207, 10);
+        width: 50px;
+        font-size: 50px; 
+        position: relative;
+        left: 40px;
+        bottom: 20px;
+}
+
 
 
 /* RECENTLY PLAYED */
+
+.album-container h2{
+        color: white;
+        margin: 20px 0 40px;
+        font-size: 3em;
+}
+
+.album-container p{
+        color: white;
+        margin: 20px 0 50px;
+        opacity: 50%;
+}
 
 .cards > .card{
         width: calc((100% / 6) - 20px);
@@ -71,8 +108,19 @@
         width: 100%;
 }
 
-.song-or-playlist{
+.song-or-playlist > h4,
+.song-or-playlist > h5{
+        color: white;
+        text-align: center;
+}
 
+.song-or-playlist > h4{       
+        font-size: 2em;
+        margin: 20px
+}
+
+.song-or-playlist > h5{
+        opacity: 50%;
 }
 
 .cover-container{
@@ -94,6 +142,49 @@ footer{
         display: flex;
         justify-content: space-between;
         z-index: 1;
+        background-color: #272727;
+        align-items: center;
+}
+
+.player-container{
+        display: flex;
+        
+}
+
+footer > div > img{
+        width: 60px;
+        display: block;
+        margin-left: 10px;
+}
+
+.player-container > div > h4,h5{
+        margin-left: 10px;
+        margin-top: 10px;
+        color: white
+}
+
+.player-container > div > h4{
+        font-size: 20px;
+}
+
+.player-container > div > h5{
+        opacity: 50%;      
+}
+
+.player-container.player > i{
+        font-size: 40px;
+        margin: 0 20px 0 20px;
+        color: white;
+}
+
+.player-container.volume > i{
+        font-size: 20px;
+        color: white;
+        margin: 0 10px 0 10px;
+}
+
+#play-button{
+        margin: 0 40px 0 40px;
 }
 
 
@@ -102,24 +193,24 @@ footer{
 
 /* DEBUG */
 
-.debug #main-content,
+/* .debug #main-content,
 .debug #main-content > aside,
 .debug #main-content > main,
 .debug footer{
         border: 2px dashed red;
-}
+} */
 
-.debug #main-content{
+/* .debug #main-content{
         background-color: aquamarine;
-}
+} */
 
-.debug footer{
+/* .debug footer{
         background-color: blueviolet;
-}
+} */
 
-.debug footer > *{
+/* .debug footer > *{
         background-color: fuchsia;
-}
+} */
 
 
 .debug #main-content > aside{
