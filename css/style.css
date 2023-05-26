@@ -116,6 +116,11 @@ li > a{
         margin-right: 20px;
 }
 
+#main-content > main > section nav ul li >a:hover{
+        color: white;
+        opacity: 100%;
+}
+
 .size-line{
         color: rgb(10, 207, 10);
         width: 50px;
@@ -166,8 +171,27 @@ li > a{
 }
 
 .cover-container{
-
+        position: relative;
 }
+
+.cover-container:hover{
+        opacity: 50%;
+}
+
+.cover-container > i{
+        font-size: 4em;
+        color: white;
+        position: absolute;
+        left: 130px;
+        top: 120px;
+        display: none;
+}
+
+.cover-container > i:hover{
+        display: block;
+}
+
+
 
 
 
@@ -199,10 +223,10 @@ footer > div > img{
         margin-left: 10px;
 }
 
-.player-container > div > h4,h5{
+.player-container > div > a > h4,h5{
         margin-left: 10px;
         margin-top: 10px;
-        color: white
+        color: white;       
 }
 
 .player-container > div > h4{
@@ -292,4 +316,12 @@ background-color: black;
         #main-content > aside{
                 width: 80px;
         }
+
+        #main-content > aside > section{
+                display: none;
+        }
+
+        
+        
+        
 }
