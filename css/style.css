@@ -11,11 +11,18 @@
         width: 80%;
 }
 
-.aside-nav > p{
+.aside-nav > a{
         color: white;
         opacity: 50%;
         text-align: left;
         padding: 0 0 15px 20px;
+        text-decoration: none;
+        display: block;
+}
+
+.aside-nav > a:hover {
+        color: white;
+        opacity: 100%;
 }
 
 .aside-playlist > h3{
@@ -24,11 +31,18 @@
         font-size: 20px;
 }
 
-.aside-playlist > p{
+.aside-playlist > a{
         color: white;
         opacity: 50%;
         text-align: left;
         padding: 0 0 25px 20px;
+        text-decoration: none;
+        display: block
+}
+
+.aside-playlist > a:hover{
+        color: white;
+        opacity: 100%;       
 }
 
 #created-button{
